@@ -1,0 +1,7 @@
+form.cmForm label em {
+	position: absolute;
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+	left: 135px;
+	}

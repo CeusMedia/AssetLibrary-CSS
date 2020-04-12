@@ -1,0 +1,488 @@
+body  {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	margin : 0px;
+	background : #ffffff;
+	color : #000000;
+	}
+table.master {
+	background : #e8f2ff;
+	border : 1px solid #c2d5ed;
+	}
+table.navi {
+	background : #759fd3;
+	height : 100%;
+	background-image : url(../images/navi_main.gif);
+	}
+table.head {
+	background : #759fd3;
+	}
+table.foot {
+	background : #759fd3;
+	font-size : 8pt;
+	font-weight : normal;
+	}
+th {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	text-align : left;
+	}
+th.tabhead {
+	background : #759fd3;
+	color : white;
+	height : 18px;
+	padding : 0 0 0 10px;
+	text-align : left;
+	font-weight : bold;
+	}
+th.list {
+	background : #759fd3;
+	color : white;
+	height : 18px;
+	padding : 0 0 0 3px;
+	text-align : left;
+	font-weight : normal;
+	font-size : 8pt;
+	white-space : nowrap;
+	}
+th.foot {
+	background : #759fd3;
+	color : white;
+	height : 18px;
+	padding : 0 0 0 3px;
+	text-align : left;
+	font-weight : normal;
+	font-size : 8pt;
+	}
+td {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	}
+td.head {
+	color : white;
+	font-weight : bold;
+	}
+td.foot {
+	padding : 0 0 0 10px;
+	color : black;
+	letter-spacing : 0;
+	}
+td.block {
+	background : #c2d5ed;
+	height : 17px;
+	padding : 0 0 0 16px;
+	color : white;
+	}
+td.tabfield {
+	padding : 0 0 0 10px;
+	height : 24px;
+	vertical-align : middle;
+	}
+td.label {
+	padding: 0 0 0 5px;
+	height : 20px;
+	}
+td.field {
+	padding: 0 0 0 2px;
+	height : 20px;
+	}
+	
+
+td.tablight {
+	height: 20px;
+	color: green;
+	padding: 0 0 0 10px
+	}
+td.tablightlabel {
+	height: 20px;
+	color: green;
+	padding: 0 0 0 5px
+	}
+td.tablighticons {
+	height: 20px;
+	color: green
+	}
+td.tablightfield {
+	height: 20px;
+	color: green;
+	padding: 0 0 0 2px
+	}
+td.taberror {
+	height: 20px;
+	background: #B82828;
+	color: white;
+	padding: 0 0 0 10px
+	}
+td.taberrorlabel {
+	height: 20px;
+	background: #B82828;
+	color: white;
+	padding: 0 0 0 5px
+	}
+td.taberroricons {
+	height: 20px;
+	background: #B82828;
+	color: white
+	}
+td.taberrorfield {
+	height: 20px;
+	background: #B82828;
+	color: white;
+	padding: 0 0 0 2px}
+td.prefix {
+	}
+td.suffix {
+	}
+hr {
+	background : #759fd3;
+	border : none;
+	height : 1px;
+	}
+td.heading {
+	white-space : nowrap;
+	background : #eaeaea;
+	padding : 0 0 0 10px;
+	font-weight : bold;
+	color : #000000;
+	}
+td.listcell {
+	padding : 0 0 0 3px;
+	height : 21px;
+	background : #eaeaea;
+	}
+td.listrow {
+	padding : 0 0 0 10px;
+	height : 39px;
+	}
+td.list {
+	padding : 3px 0 2px 4px;
+	vertical-align : top;
+	padding : 0;
+	}
+td.navihead {
+	background : #2868b8;
+	height : 19px;
+	color : white;
+	padding : 0 0 0 6px;
+	}
+td.navimain {
+	background : #2868b8;
+	height : 19px;
+	color : white;
+	padding : 0 0 0 6px;
+	cursor : pointer;
+	}
+td.navimainon {
+	background : #2868b8;
+	height : 19px;
+	color : white;
+	padding : 0 0 0 6px;
+	cursor : pointer;
+	}
+td.navisub {
+	background : #c2d5ed;
+	height : 17px;
+	text-indent : 16px;
+	cursor : pointer;
+	color : black;
+	}
+td.navisubon {
+	background : #c2d5ed;
+	height : 17px;
+	text-indent : 16px;
+	cursor : pointer;
+	color : black;
+	}
+td.naviqlogin {
+	background : #c2d5ed;
+	height : 17px;
+	padding : 0 0 0 16px;
+	}
+td.chapter {
+	background : #2868b8;
+	color : white;
+	padding : 5px 10px;
+	text-align : center;
+	border-style : solid;
+	border-width : 1px 1px 0;
+	border-color : black;
+	}
+td.chapteron {
+	background : #759fd3;
+	color : white;
+	font-weight : bold;
+	text-align : center;
+	padding : 5px 20px;
+	border-style : solid;
+	border-width : 1px 1px 0;
+	border-color : black;
+	}
+.filled {
+	background : #c2d5ed;
+	}
+.filledframe {
+	background : #c2d5ed;
+	border : 1px solid #2868b8;
+	}
+.border {
+	background : #2868b8;
+	}
+td.inline {
+	background : #2868b8;
+	height: 1px;
+	}
+.outline {
+	background : #000000;
+	}
+.small {
+	font-size : 7pt;
+	font-weight : normal;
+	}
+a:link {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	color : #8b0000;
+	text-decoration : underline;
+	}
+a:visited {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	color : #8b0000;
+	text-decoration : underline;
+	}
+a:active {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	color : red;
+	text-decoration : none;
+	}
+a:hover {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	color : #000000;
+	text-decoration : none;
+	}
+a.tabhead {
+	color : white;
+	text-decoration : underline;
+	}
+a.tabhead:link {
+	color : white;
+	text-decoration : underline;
+	}
+a.tabhead:visited {
+	color : white;
+	text-decoration : underline;
+	}
+a.tabhead:active {
+	color : white;
+	text-decoration : underline;
+	}
+a.tabhead:hover {
+	color : white;
+	text-decoration : underline;
+	}
+input {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	color : black;
+	}
+input.inbit {
+	background : #e8f2ff;
+	width : 20px;
+	height : 13px;
+	border : 1px solid #759fd3;
+	}
+input.intiny {
+	background : #e8f2ff;
+	width : 40px;
+	height : 13px;
+	border : 1px solid #759fd3;
+	}
+input.inshort {
+	background : #e8f2ff;
+	width : 75px;
+	height : 13px;
+	border : 1px solid #759fd3;
+	}
+input.in {
+	background : #e8f2ff;
+	width : 140px;
+	height : 13px;
+	border : 1px solid #759fd3;
+	}
+input.inmed {
+	background : #e8f2ff;
+	width : 200px;
+	height : 13px;
+	border : 1px solid #759fd3;
+	}
+input.inlong {
+	background : #e8f2ff;
+	width : 300px;
+	height : 13px;
+	border : 1px solid #759fd3;
+	}
+input.label {
+	border : none;
+	background : none repeat;
+	padding : 0px;
+	margin : 0px;
+	}
+select {
+	background : #e8f2ff;
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	height : 17px;
+	font-weight : normal;
+	color : black;
+	}
+select.selbit {
+	width : 40px;
+	border : 1px solid #759fd3;
+	}
+select.selshort {
+	width : 75px;
+	border : 1px solid #759fd3;
+	}
+select.sel {
+	width : 140px;
+	border : 1px solid #759fd3;
+	}
+select.selmed {
+	width : 200px;
+	border : 1px solid #759fd3;
+	}
+select.sellong {
+	width : 300px;
+	border : 1px solid #759fd3;
+	}
+optgroup {
+	font-family : ms sans serif, tahoma;
+	font-size : 8pt;
+	font-style : normal;
+	color : black;
+	}
+input.but {
+	background : #2868b8;
+	width : 100px;
+	height : 20px;
+	border : 1px solid white;
+	color : white;
+	cursor : pointer;
+	}
+input.butshort {
+	background : #2868b8;
+	width : 75px;
+	height : 20px;
+	border : 1px solid white;
+	color : white;
+	cursor : pointer;
+	}
+input.buthot {
+	background : #9e2828;
+	width : 100px;
+	height : 20px;
+	border : 1px solid white;
+	color : white;
+	cursor : pointer;
+	}
+input.buthotshort {
+	background : #9e2828;
+	width : 75px;
+	height : 20px;
+	border : 1px solid white;
+	color : white;
+	cursor : pointer;
+	}
+button.but {
+	background : #2868b8;
+	font-family : tahoma, arial;
+	width : 100px;
+	height : 20px;
+	border : 1px solid white;
+	color : white;
+	cursor : pointer;
+	}
+button.butshort {
+	background : #2868b8;
+	font-family : tahoma, arial;
+	width : 75px;
+	height : 22px;
+	border : 1px solid white;
+	color : white;
+	cursor : pointer;
+	}
+button.buthot {
+	background : #9e2828;
+	font-family : tahoma, arial;
+	width : 100px;
+	height : 20px;
+	border : 1px solid white;
+	color : white;
+	cursor : pointer;
+	}
+textarea {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	background : #e8f2ff;
+	color : black;
+	border : 1px solid #759fd3;
+	}
+textarea.xx {
+	width : 415px;
+	height : 200px;
+	}
+textarea.xm {
+	width : 415px;
+	height : 120px;
+	}
+textarea.xs {
+	width : 415px;
+	height : 60px;
+	}
+textarea.mx {
+	width : 300px;
+	height : 200px;
+	}
+textarea.mm {
+	width : 300px;
+	height : 120px;
+	}
+textarea.ms {
+	width : 300px;
+	height : 60px;
+	}
+textarea.sx {
+	width : 140px;
+	height : 200px;
+	}
+textarea.sm {
+	width : 140px;
+	height : 120px;
+	}
+textarea.ss {
+	width : 140px;
+	height : 60px;
+	}
+textarea.ed_int {
+	font-family : tahoma, arial;
+	font-size : 8pt;
+	width : 415px;
+	height : 210px;
+	}
+fieldset {
+	border : 1px solid #6794cd;
+	}
+b.msg_obj {
+	cursor : pointer;
+	}
+b.msg_pos {
+	color : green;
+	}
+b.msg_neg {
+	color : red;
+	}
+img {
+	border: 0px;
+	}

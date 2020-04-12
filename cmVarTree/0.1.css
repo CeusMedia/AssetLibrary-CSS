@@ -1,0 +1,100 @@
+.varTree {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 0.5em;
+	padding: 0.5em 1em 0.5em 0.5em;
+	border: 1px solid #DDD;
+	background: #F7F7F7;
+	}
+
+.varTree ul {
+	margin: 0px;
+	padding: 0px;
+	}
+
+.varTree ul li {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	}
+
+.varTree ul li.closed>ul {
+	display: none;
+	}
+
+.varTree ul ul {
+	margin-left: 0.5em;
+	}
+
+.varTree ul li.array>span,
+.varTree ul li.object>span {
+	cursor: pointer;
+	}
+
+.varTree ul li.array.closed>span,
+.varTree ul li.object.closed>span {
+	font-weight: bold;
+	}
+
+.varTree ul li.array>span {
+	color: green;
+	}
+
+.varTree ul li.object>span {
+	color: blue;
+	}
+
+.varTree ul li.closed ul {
+	display: none;
+	}
+
+.varTree ul li.array,
+.varTree ul li.boolean,
+.varTree ul li.double,
+.varTree ul li.float,
+.varTree ul li.integer,
+.varTree ul li.null,
+.varTree ul li.object,
+.varTree ul li.resource,
+.varTree ul li.string {
+	background-repeat: no-repeat;
+	background-position: left 0.5em;
+	padding-left: 1em;
+	}
+
+.varTree ul li.array {
+	background-image: url(type-array.png);
+	}
+
+.varTree ul li.boolean {
+	background-image: url(type-boolean.png);
+	}
+
+.varTree ul li.double {
+	background-image: url(type-double.png);
+	}
+
+.varTree ul li.float {
+	background-image: url(type-float.png);
+	}
+
+.varTree ul li.integer {
+	background-image: url(type-integer.png);
+	}
+
+.varTree ul li.null {
+	background-image: url(type-null.png);
+	}
+
+.varTree ul li.object {
+	background-image: url(type-object.png);
+	}
+
+.varTree ul li.resource {
+	background-image: url(type-resource.png);
+	}
+
+.varTree ul li.string {
+	background-image: url(type-string.png);
+	}

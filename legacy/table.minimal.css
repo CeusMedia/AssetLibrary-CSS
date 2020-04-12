@@ -1,0 +1,19 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+/*	border-width: 1px;
+	border-style: solid;
+	border-color: #B0B0B0;*/
+	}
+table th {
+	background: #EFEFEF;
+	border-bottom: 1px solid #D1D1D1;
+	color: #3D3D3D;
+	font-size: 0.9em;
+	font-weight: normal;
+	}
+table td {
+	border-bottom: 1px solid #D1D1D1;
+	padding: 8px 3px;
+	vertical-align: middle;
+	}

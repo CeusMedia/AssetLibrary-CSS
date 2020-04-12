@@ -1,0 +1,87 @@
+/*  cmForm  */
+form.cmForm {
+	width: 100%;
+	font-size: 1.1em;
+	color: #333;
+	}
+form.cmForm fieldset {
+	margin-bottom: 10px;
+	border: 1px solid #C9DCA6;
+/*	background: #BBB;*/
+	}
+form.cmForm legend {
+	padding: 0 2px;
+	font-weight: bold;
+	padding-left: 0;
+	margin-left: 2em;
+	padding: 2px 1em 2px 1em;
+	border: 1px solid #C9DCA6;
+/*	background: #777;
+	color: white;
+	font-weight: bold;*/
+	}
+form.cmForm label {
+	display: inline-block;
+	vertical-align: top;
+	color: #333;
+	}
+form.cmForm fieldset ol {
+	margin: 0;
+	padding: 0;
+	}
+form.cmForm fieldset li {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+	padding: 5px 10px 7px;
+	line-height: 1.8;
+	}
+form.cmForm fieldset fieldset {
+	border: none;
+	margin: 3px 0 0;
+	background: none;
+	}
+form.cmForm fieldset fieldset legend {
+	padding: 0 0 5px;
+	font-weight: normal;
+	}
+form.cmForm fieldset fieldset label {
+	display: block;
+	width: auto;
+	position: relative;
+	}
+form.cmForm label {
+	width: 120px;					/* Width of labels */
+	position: relative;
+	}
+form.cmForm label em {
+	position: absolute;
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+	left: 115px;
+	}
+form.cmForm fieldset fieldset label {
+	margin-left: 123px;				/* Width plus 3 (html space) */
+	}
+
+/*\*//*/ form.cmForm legend { display: inline-block; } /* IE Mac legend fix */
+
+form select {
+	width: 150px;
+	}	
+
+
+/*form fieldset input,
+form fieldset select {
+	margin:3px;
+	height:20px;
+	width:200px;
+	border-width:0px;
+	background: transparent url("textfield_bg.gif") no-repeat;
+	}
+fieldset>input,
+fieldset>select {
+	background: transparent url("textfield_bg.gif") no-repeat;
+	}
+	*/

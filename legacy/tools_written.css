@@ -1,0 +1,364 @@
+body	{
+	font-family: verdana, lucida sans unicode;
+	font-size: 8pt;
+	margin: 0px;
+	background: #DFDFDF;
+	color: #000000;
+	}
+table	{
+
+	}
+table.master	{
+	background: #e8f2ff;
+	border: 1px solid #c2d5ed;
+	}
+table.navi	{
+	background: #759fd3;
+	height: 100%;
+	background-image: url(../images/navi_main.gif);
+	}
+table.head	{
+	background: #759fd3;
+	}
+table.foot	{
+	background: #759fd3;
+	font-size: 8pt;
+	font-weight: normal;
+	}
+th	{
+	font-family: verdana, lucida sans unicode;
+	font-size: 8pt;
+	text-align: left;
+	}
+th.tabhead	{
+	background: #4F4F4F;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 6px 30px 4px 10px;
+	font-size: 10pt;
+	}
+th.list	{
+	background: #759fd3;
+	color: white;
+	height: 18px;
+	padding: 0 0 0 3px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 8pt;
+	white-space: nowrap;
+	}
+th.foot	{
+	background: #759fd3;
+	color: white;
+	height: 18px;
+	padding: 0 0 0 3px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 8pt;
+	}
+td	{
+	font-family: verdana, lucida sans unicode;
+	font-size: 8pt;
+	}
+td.head	{
+	color: white;
+	font-weight: bold;
+	}
+td.foot	{
+	padding: 0 0 0 10px;
+	color: black;
+	letter-spacing: 0;
+	}
+td.block	{
+	background: #c2d5ed;
+	height: 17px;
+	padding: 0 0 0 16px;
+	color: white;
+	}
+td.tabfield	{
+	padding: 0 0 0 10px;
+	height: 24px;
+	vertical-align: middle;
+	}
+td.label	{
+	padding: 0 0 0 10px;
+	height: 20px;
+	}
+td.field	{
+	padding: 0 0 0 4px;
+	height: 20px;
+	}
+td.prefix	{
+
+	}
+td.suffix	{
+
+	}
+td.heading	{
+	white-space: nowrap;
+	background: #eaeaea;
+	padding: 0 0 0 10px;
+	font-weight: bold;
+	color: #000000;
+	}
+td.listcell	{
+	padding: 0 0 0 3px;
+	height: 21px;
+	background: #eaeaea;
+	}
+td.listrow	{
+	padding: 0 0 0 10px;
+	height: 39px;
+	}
+td.list	{
+	padding: 0;
+	vertical-align: top;
+	}
+td.inline	{
+	background: #EFEFEF;
+	height: 1px;
+	}
+hr	{
+	background: none;
+	border: none;
+	border-top: 1px dotted black;
+	height: 1px;
+	}
+a	{
+
+	}
+a.tabhead	{
+	color: white;
+	text-decoration: underline;
+	}
+a.tabhead:link	{
+	color: white;
+	text-decoration: underline;
+	}
+a.tabhead:visited	{
+	color: white;
+	text-decoration: underline;
+	}
+a.tabhead:active	{
+	color: white;
+	text-decoration: underline;
+	}
+a.tabhead:hover	{
+	color: white;
+	text-decoration: underline;
+	}
+input	{
+	font-family: verdana, lucida sans unicode;
+	font-size: 8pt;
+	color: black;
+	}
+input.inbit	{
+	background: #EFEFEF;
+	width: 20px;
+	height: 13px;
+	border: 1px inset #7F7F7F;
+	}
+input.intiny	{
+	background: #EFEFEF;
+	width: 40px;
+	height: 13px;
+	border: 1px inset #7F7F7F;
+	}
+input.inshort	{
+	background: #EFEFEF;
+	width: 75px;
+	height: 13px;
+	border: 1px inset #7F7F7F;
+	}
+input.in	{
+	background: #EFEFEF;
+	width: 140px;
+	height: 13px;
+	border: 1px inset #7F7F7F;
+	}
+input.inmed	{
+	background: #EFEFEF;
+	width: 200px;
+	height: 13px;
+	border: 1px inset #7F7F7F;
+	}
+input.inlong	{
+	background: #EFEFEF;
+	width: 300px;
+	height: 13px;
+	border: 1px inset #7F7F7F;
+	}
+input.label	{
+	border: none;
+	background: none repeat;
+	padding: 0px;
+	margin: 0px;
+	}
+input.but	{
+	background: #BFBFBF;
+	width: 100px;
+	height: 18px;
+	border: 1px outset #7F7F7F;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	}
+input.butshort	{
+	background: #BFBFBF;
+	width: 75px;
+	height: 18px;
+	border: 1px outset #7F7F7F;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	}
+input.buthot	{
+	background: #9e2828;
+	width: 100px;
+	height: 18px;
+	border: 1px outset #9e2828;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	}
+input.buthotshort	{
+	background: #9e2828;
+	width: 75px;
+	height: 18px;
+	border: 1px outset #7F7F7F;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	}
+select	{
+	background: #EFEFEF;
+	font-family: verdana, lucida sans unicode;
+	font-size: 8pt;
+	height: 17px;
+	font-weight: normal;
+	color: black;
+	border: 1px inset #7F7F7F;
+	}
+select.selbit	{
+	width: 40px;
+	}
+select.selshort	{
+	width: 75px;
+	}
+select.sel	{
+	width: 140px;
+	}
+select.selmed	{
+	width: 200px;
+	}
+select.sellong	{
+	width: 300px;
+	}
+optgroup	{
+	font-family: ms sans serif, tahoma;
+	font-size: 8pt;
+	font-style: normal;
+	color: black;
+	}
+button	{
+
+	}
+button.but	{
+	background: #2868b8;
+	font-family: verdana, lucida sans unicode;
+	width: 100px;
+	height: 20px;
+	border: 1px inset;
+	color: black;
+	cursor: pointer;
+	}
+button.butshort	{
+	background: #2868b8;
+	font-family: verdana, lucida sans unicode;
+	width: 75px;
+	height: 20px;
+	border: 1px inset;
+	color: black;
+	cursor: pointer;
+	}
+button.buthot	{
+	background: #9e2828;
+	font-family: verdana, lucida sans unicode;
+	width: 100px;
+	height: 20px;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+	}
+textarea	{
+	font-family: verdana, lucida sans unicode;
+	font-size: 8pt;
+	background: #EFEFEF;
+	color: black;
+	border: 1px inset #7F7F7F;
+	}
+textarea.xx	{
+	width: 415px;
+	height: 200px;
+	}
+textarea.xm	{
+	width: 415px;
+	height: 120px;
+	}
+textarea.xs	{
+	width: 415px;
+	height: 60px;
+	}
+textarea.mx	{
+	width: 300px;
+	height: 200px;
+	}
+textarea.mm	{
+	width: 300px;
+	height: 120px;
+	}
+textarea.ms	{
+	width: 300px;
+	height: 60px;
+	}
+textarea.sx	{
+	width: 140px;
+	height: 200px;
+	}
+textarea.sm	{
+	width: 140px;
+	height: 120px;
+	}
+textarea.ss	{
+	width: 140px;
+	height: 60px;
+	}
+textarea.ed_int	{
+	font-family: verdana, lucida sans unicode;
+	font-size: 8pt;
+	width: 415px;
+	height: 210px;
+	}
+fieldset	{
+	border: 1px solid #6794cd;
+	}
+b	{
+
+	}
+b.msg_obj	{
+	cursor: pointer;
+	}
+b.msg_pos	{
+	color: green;
+	}
+b.msg_neg	{
+	color: red;
+	}
+img	{
+	border: 0px;
+	}
+acronym	{
+	cursor: help;
+	border-color: #BFBFBF;
+	}

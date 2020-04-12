@@ -1,0 +1,9 @@
+form.cmForm label {
+	display: inline-block;
+	}
+form.cmForm legend {
+	margin: 0px 7px;
+	}
+form select {
+	width: 130px;
+	}	
